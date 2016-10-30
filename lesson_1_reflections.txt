@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+The diff helped me by narrowing down the amount of code that I needed to review.
+We knew the bug was introduced with the last edit.
+Therefore, to find the bug, we only needed to review the lines in the file
+that had beed edited.
+
+How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+It would help with troubleshooting. It would be insurance against
+errors/lost work. It would reduce the confusion that is caused by extemporaneous
+backups (ie. making file copies). It would encourage experimentation
+(risk-taking).
+
+What do you think are the pros and cons of manually choosing when to create
+a commit, like you do in Git, vs having versions automatically saved,
+like Google Docs does?
+
+Pros: Manual commits allow for more logical checkpoints. It's easier to review the
+history of the project. It encourages work sessions to be focused on specific
+tasks.
+Cons: Relies on the user. Relies on the user. Takes more time and effort. Quick
+fixes might not seem worth entering into version control.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git was probably designed specifically for coding. Websites and applications
+are almost always comprised of multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+To view the commit log, CD into the repository and type the commands 'git log.'
+To view the changes between any to given commits, use the commands 'git diff'
+followed by the two git commit id numbers.
+
+How might using version control make you more confident to make changes
+that could break something?
+
+The correct version will always be safe. It is a simple matter of process
+elimination to find when the bug was introduced.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use Git for tracking edits and experimenting with branches for my
+portfolio site project.
