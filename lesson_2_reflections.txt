@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, git creates the files it will need to track
+your project.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The Working Directory and Repository contain all the traced files. The Staging
+Area only contain files that are part of a particular commit.
