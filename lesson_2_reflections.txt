@@ -26,3 +26,8 @@ Diagrams help to show how different branches relate to each other and to master.
 
 Merging incorporates the edits that were made in one branch into the current
 branch. The diagram helps to clarify parents and reachability.
+
+- What are the pros and cons of Git’s automatic merging vs. always
+doing merges manually?
+
+Automatic merging is convenient but prone to mistakes.
