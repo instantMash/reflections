@@ -1,28 +1,28 @@
-What happens when you initialize a repository? Why do you need to do it?
+- What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, git creates the files it will need to track
 your project.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+- How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The Working Directory and Repository contain all the traced files. The Staging
 Area only contain files that are part of a particular commit.
 
-How can you use the staging area to make sure you have one commit per logical change?
+- How can you use the staging area to make sure you have one commit per logical change?
 
 By adding only the files that are relevant to the commit.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When you want to experiment with a feature, and you're not sure yet if you will
 keep it. Creating a new branch would give you the option of removing that
 feature, without rolling back a bunch of commits
 
-How do the diagrams help you visualize the branch structure?
+- How do the diagrams help you visualize the branch structure?
 
 Diagrams help to show how different branches relate to each other and to master.
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging incorporates the edits that were made in one branch into the current
 branch. The diagram helps to clarify parents and reachability.
