@@ -7,3 +7,13 @@ When working on a project from more than one computer (ex. work and home).
 having Git automatically stay up-to-date with your remote repository?
 
 In case someone else on your team has made edits to the remote repository.
+
+- Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork exists on Github. It is still associated with the original repo.
+  • Use when you want to share your changes with the original creator.
+A clone is a local copy of a repo, pulled down from Github.
+  • Use when you want to work locally.
+A branch is a series of commits that are grouped in a Repo.
+  • Use when you want to work on a repo with the intent to eventually merge
+  your edits.
