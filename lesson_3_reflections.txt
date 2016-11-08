@@ -17,3 +17,8 @@ A clone is a local copy of a repo, pulled down from Github.
 A branch is a series of commits that are grouped in a Repo.
   • Use when you want to work on a repo with the intent to eventually merge
   your edits.
+
+- What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+You can work offline.
